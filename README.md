@@ -5,20 +5,62 @@ This repository holds all hardware design and fabrication files
 ![image](https://user-images.githubusercontent.com/16537586/209653456-0dadc99d-8447-41e0-b1e9-c29c1a3ce5f9.png)
 
 ## Direct links
-- [Schematics](PDF/ps32_lite_rev_a_public_schematic.pdf)
+- [Schematics (and assembly drawing)](PDF/ps32_lite_rev_a_public_schematic.pdf)
 - [Altium project](Altium/)
 - [Fabrication files](Fabrication%20Files/)
 - [Fabrication files for JLCPCB Assembly (and some screenshots how to oder)](JLCPCB/)
 
 ---
 
-The community around the PiStorm project is best reached on Discord
+The community around the PiStorm Project is best reached on Discord
 
 [![](https://dcbadge.vercel.app/api/server/vyHr6nQeGn)](https://discord.gg/vyHr6nQeGn)
 
 ---
+> IMPORTANT NOTE: `Isolate the PI GPIO and Ethernet Pins from the A1200 Keyboard, that can be done by 2  or 3 layers of tape attached to the keyboard backside where the Pi pins would touch the metal`
+If you don't do that, you likely fry your Pi ! Sorry couldn't design it an other way, there is not much space in the A1200 trapdoor bay 
+---
 
-If you like this project and want to support me with a donation, I *finally* setup a donate button :)
-The donations will go into further development of Opensource PiStorm hardware.
+Beside the PCB you also need following parts:
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JQC4M73U9KKPG)
+| Designator  | Part | Quantity | Notes
+| ------ | ------ | ----- | ----- |
+| C1 to C16, C23, C24 | 100nF 0603 | 18 | X7R 
+| C17, C18, C19, C20, C21, C22 | Tantalum 10uF 16V Size B| 6 | --
+| D1 | BAT54C | 1 | --
+| EXT | 2.54mm Pin Header 10 Pins | 1 | Expansion header for the future :)
+| M1,M2,M3 | SMD M2.5 NUT | 3 | e.g. Sinhoo SMTSO2515CTJ
+| LED_1.2, LED_3.3, LED_FPGA, LED_PI | RED LED 0805 | 4 | Indicate not Illuminate!
+| PI | SMD 40Pin - bottom entry | 1 | e.g. Liansheng FH-00369 
+| CN1 | A1200 Edge connector | 1 | see links and notes
+| Q1 | IRML6401 | 1 | --
+| Q2, Q3, Q4, Q5, Q6 | BC847B | 5 | --
+| R2, R4, R5, R6, R7, R8, R9, R10, R19 | Resistor 0603 10kOhm | 9 | --
+| R16, R17, R18 | Resistor 0603 1kOhm | 3 | --
+| RN1, RN2, RN3, RN4, RN5, RN6, RN7, RN8, RN9| Resistor Array 0603x4 10kOhm | 9 | e.g. YAGEO YC164-JR
+| RN10 | Resistor Array 0603x4 1kOhm | 1 | e.g. YAGEO YC164-JR
+| U1 | FPGA Efinix Trion T8Q144C4 (or C3) | 1 | see links and notes
+| U2, U3, U4, U5, U6, U7 | 74CBTD3384 TSSOP-24 | 6 | TI or NXP
+| U8, U9, U10, U11 | 74LVC573A TSSOP-20 | 4 | TI or NXP
+| U12 | AMS1117-3.3 3.3V LDO | 1 | --
+| U13 | AMS1117-3 1.2 1.2V LDO | 1 | --
+
+> Note: A1200 Edge Connectors can be purchased [here](https://retroready.one/products/amiga-1200-genuine-expansion-card-edge-connector-brand-new?_pos=1&_sid=b7b91e722&_ss=r) for example (retroready, recommended)
+
+> Note: JLCPCB doesnt stock the Efinix FPGA, but JLCPCB can source that part trough their [global parts sourcing service](https://jlcpcb.com/help/article/60-How-to-use-JLCPCB-Global-Sourcing-Parts-Service)
+
+For mechanical assembly you need :
+
+- 3 M2.5 Screws with 6 to 8mm thread length (M2.5x6 or M2.5x8)
+- 3 Spacers ID=2.6mm Length=3.0mm 
+- 1 Thermal Pad with 1mm thickness, just needs to be big enough to cover the PI CPU 
+
+There are also some [pictures here](Pictures/) how to attach the thermal pad and screws
+
+---
+
+If you like this project and want to support me with a donation, I finally setup a donate button :)
+
+The donations will go into further development of opensource PiStorm hardware.
+
+   [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JQC4M73U9KKPG)
