@@ -3,15 +3,15 @@
 
 This repository holds all hardware design and fabrication files
 
-Pistorm32-lite is compatible with 
+PiStorm32-lite is compatible with 
 - PI3A
 - PI3B
 - PI4B
 - PiZero2 (could be very tight around the HDMI connector...)
 
 And soon there will be a custom made CM4 adapter for PiStorm32-lite.
-The custom made adapter will offer the best cooling in the constrainted space avaiable and convient access to all IOs (HDMI,USB,Ethernet)
-trough the A1200 Module Slot near the Joystick/Mouse ports without modifications to the Amiga case.
+The custom made adapter will offer the best cooling in the constrained space available and convenient access to all IOs (HDMI,USB,Ethernet)
+through the A1200 Module Slot near the Joystick/Mouse ports without modifications to the Amiga case.
 
 
 ![image](https://user-images.githubusercontent.com/16537586/209653456-0dadc99d-8447-41e0-b1e9-c29c1a3ce5f9.png)
@@ -29,13 +29,13 @@ The community around the PiStorm Project is best reached on Discord
 [![](https://dcbadge.vercel.app/api/server/vyHr6nQeGn)](https://discord.gg/vyHr6nQeGn)
 
 ---
-> IMPORTANT NOTE: `Isolate the PI GPIO and Ethernet Pins from the A1200 Keyboard, that can be done by 2  or 3 layers of tape attached to the keyboard backside where the Pi pins would touch the metal`
+> IMPORTANT NOTE: `Isolate the PI GPIO and Ethernet Pins from the A1200 Keyboard, that can be done by 2  or 3 layers of tape attached to the keyboard backside where the Pi pins would touch the metal`
 If you don't do that, you likely fry your Pi ! Sorry couldn't design it an other way, there is not much space in the A1200 trapdoor bay 
 ---
 
 Beside the PCB you also need following parts:
 
-| Designator  | Part | Quantity | Notes
+| Designator  | Part | Quantity | Notes
 | ------ | ------ | ----- | ----- |
 | C1 to C16, C23, C24 | 100nF 0603 | 18 | X7R 
 | C17, C18, C19, C20, C21, C22 | Tantalum 10uF 16V Size B| 6 | --
@@ -59,7 +59,7 @@ Beside the PCB you also need following parts:
 
 > Note: A1200 Edge Connectors can be purchased [here](https://retroready.one/products/amiga-1200-genuine-expansion-card-edge-connector-brand-new?_pos=1&_sid=b7b91e722&_ss=r) for example (retroready, recommended)
 
-> Note: JLCPCB doesnt stock the Efinix FPGA, but JLCPCB can source that part trough their [global parts sourcing service](https://jlcpcb.com/help/article/60-How-to-use-JLCPCB-Global-Sourcing-Parts-Service)
+> Note: JLCPCB does not stock the Efinix FPGA, but can source that part trough their [global parts sourcing service](https://jlcpcb.com/help/article/60-How-to-use-JLCPCB-Global-Sourcing-Parts-Service)
 
 For mechanical assembly you need :
 
@@ -73,6 +73,6 @@ There are also some [pictures here](Pictures/) how to attach the thermal pad and
 
 If you like this project and want to support me with a donation, I finally setup a donate button :)
 
-The donations will go into further development of opensource PiStorm hardware.
+The donations will go into further development of open source PiStorm hardware.
 
-   [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JQC4M73U9KKPG)
+   [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JQC4M73U9KKPG)
