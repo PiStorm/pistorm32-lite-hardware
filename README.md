@@ -12,7 +12,7 @@ This repository holds all hardware design and fabrication files
 
 ---
 
-The community around the PiStorm Project is best reached on Discord
+The community around the PiStorm project is best reached on Discord
 
 [![](https://dcbadge.vercel.app/api/server/vyHr6nQeGn)](https://discord.gg/vyHr6nQeGn)
 
