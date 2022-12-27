@@ -2,6 +2,18 @@
 ## A Opensource, Raspberry Pi based, Amiga A1200 Accelerator
 
 This repository holds all hardware design and fabrication files
+
+Pistorm32-lite is compatible with 
+- PI3A
+- PI3B
+- PI4B
+- PiZero2 (could be very tight around the HDMI connector...)
+
+And soon there will be a custom made CM4 adapter for PiStorm32-lite.
+The custom made adapter will offer the best cooling in the constrainted space avaiable and convient access to all IOs (HDMI,USB,Ethernet)
+trough the A1200 Module Slot near the Joystick/Mouse ports without modifications to the Amiga case.
+
+
 ![image](https://user-images.githubusercontent.com/16537586/209653456-0dadc99d-8447-41e0-b1e9-c29c1a3ce5f9.png)
 
 ## Direct links
