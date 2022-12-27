@@ -59,7 +59,7 @@ Beside the PCB you also need following parts:
 
 > Note: A1200 Edge Connectors can be purchased [here](https://retroready.one/products/amiga-1200-genuine-expansion-card-edge-connector-brand-new?_pos=1&_sid=b7b91e722&_ss=r) for example (retroready, recommended)
 
-> Note: JLCPCB does not stock the Efinix FPGA, but can source that part trough their [global parts sourcing service](https://jlcpcb.com/help/article/60-How-to-use-JLCPCB-Global-Sourcing-Parts-Service)
+> Note: JLCPCB does not stock the Efinix FPGA, but can source that part trough their [global parts sourcing service](https://jlcpcb.com/help/article/60-How-to-use-JLCPCB-Global-Sourcing-Parts-Service). If you want to assemble the PCB by yourself, or order a partially assembeld PCB without the FPGA then here is a link to Digikey [Digikey FPGA](https://www.digikey.com/short/zh3ph422)
 
 For mechanical assembly you need :
 
