@@ -20,7 +20,7 @@ through the A1200 Module Slot near the Joystick/Mouse ports without modification
 - [Schematics (and assembly drawing)](PDF/ps32_lite_rev_a_public_schematic.pdf)
 - [Altium project](Altium/)
 - [Fabrication files](Fabrication%20Files/)
-- [Fabrication files for JLCPCB Assembly (and some screenshots how to oder)](JLCPCB/)
+- [Fabrication files for JLCPCB Assembly (and some screenshots how to order)](JLCPCB/)
 
 ---
 
