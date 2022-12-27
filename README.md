@@ -51,7 +51,7 @@ Beside the PCB you also need following parts:
 
 For mechanical assembly you need :
 
-- 3 M2.5 Screws with 6 to 8mm thread length (M2.5x6 or M2.5x8)
+- 3 M2.5 Screws with 8mm thread length (M2.5x8)
 - 3 Spacers ID=2.6mm Length=3.0mm 
 - 1 Thermal Pad with 1mm thickness, just needs to be big enough to cover the PI CPU 
 
