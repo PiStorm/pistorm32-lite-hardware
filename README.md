@@ -36,7 +36,7 @@ Beside the PCB you also need following parts:
 | Q1 | IRML6401 | 1 | --
 | Q2, Q3, Q4, Q5, Q6 | BC847B | 5 | --
 | R2, R4, R5, R6, R7, R8, R9, R10, R19 | Resistor 0603 10kOhm | 9 | --
-| R16, R17, R18 | Resistor 0603 1kOhm | 3 | --
+| R3, R13, R16, R17, R18 | Resistor 0603 1kOhm | 5 | --
 | RN1, RN2, RN3, RN4, RN5, RN6, RN7, RN8, RN9| Resistor Array 0603x4 10kOhm | 9 | e.g. YAGEO YC164-JR
 | RN10 | Resistor Array 0603x4 1kOhm | 1 | e.g. YAGEO YC164-JR
 | U1 | FPGA Efinix Trion T8Q144C4 (or C3) | 1 | see links and notes
