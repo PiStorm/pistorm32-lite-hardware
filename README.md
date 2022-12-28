@@ -1,5 +1,5 @@
 # PiStorm32-lite
-## A Opensource, Raspberry Pi based, Amiga A1200 Accelerator
+## An Opensource, Raspberry Pi based, Amiga A1200 Accelerator
 
 This repository holds all hardware design and fabrication files
 
