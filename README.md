@@ -71,7 +71,7 @@ There are also some [pictures here](Pictures/) how to attach the thermal pad and
 
 ---
 
-If you like this project and want to support me with a donation, I finally setup a donate button :)
+If you like this project and want to support me (Claude Schwarz, PiStorm Hardware) with a donation, I finally setup a donate button :)
 
 The donations will go into further development of open source PiStorm hardware.
 
