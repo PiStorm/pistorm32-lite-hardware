@@ -40,7 +40,7 @@ Beside the PCB you also need following parts:
 | C1 to C16, C23, C24 | 100nF 0603 | 18 | X7R 
 | C17, C18, C19, C20, C21, C22 | Tantalum 10uF 16V Size B| 6 | --
 | D1 | BAT54C | 1 | --
-| EXT | 2.54mm Pin Header 2x5 10 Pins | 1 | Expansion header for the future :)
+| EXT | 2.54mm Pin Header 2x5 10 Pins | 1 | Expansion header for the future :) e.g.  B-2100S10P-B110
 | M1,M2,M3 | SMD M2.5 NUT | 3 | e.g. Sinhoo SMTSO2515CTJ
 | LED_1.2, LED_3.3, LED_FPGA, LED_PI | RED LED 0805 | 4 | Indicate not Illuminate!
 | PI | SMD 40Pin 2x20 - bottom entry | 1 | e.g. Liansheng FH-00369 
