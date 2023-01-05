@@ -47,7 +47,7 @@ Units used: mm
 "LED_FPGA","82.3705mm","97.2681mm","TopLayer","180"
 "LED_PI","82.3705mm","94.8140mm","TopLayer","180"
 "PI","58.3661mm","84.5270mm","TopLayer","0"
-"Q1","41.3664mm","94.8125mm","TopLayer","270"
+"Q1","41.3664mm","94.8125mm","TopLayer","90"
 "Q2","44.6658mm","94.8169mm","TopLayer","270"
 "Q3","77.8542mm","78.3373mm","TopLayer","90"
 "Q4","74.4270mm","78.3068mm","TopLayer","90"
