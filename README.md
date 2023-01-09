@@ -3,6 +3,31 @@
 
 This repository holds all hardware design and fabrication files
 
+
+
+
+
+---
+---
+---
+---
+
+
+## THERE SEEMS TO BE A QUALITY ISSUE WITH SOLDERING THE GPIO CONNECTOR AT JLCPCB CURRENTLY 
+ Please check my [TWITTER](https://twitter.com/Claude1079/status/1612547758920966167?s=20&t=sBTKzZ2F7YMtYThFhheXvA)
+ or Discord for further information and progress. 
+
+---
+---
+---
+---
+
+
+
+
+
+
+
 PiStorm32-lite is compatible with 
 - PI3A
 - PI3B
