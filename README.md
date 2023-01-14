@@ -19,7 +19,7 @@ This repository holds all hardware design and fabrication files
 
 Currently (14.01.2023) it looks like that PCBs assembeld in the "Economic PCBA" tier are eventually affected.
 When the boards are processed trough the "Standard PCBA" tier the soldering seems to be fine.
-The easiest way to get "Standard PCBA" is to select ENIG finish or/and a custom solder mask colour like black , costs a little bit on top. But it looks like this circumvents the problem. 
+The easiest way to get "Standard PCBA" is to select ENIG finish or/and a custom solder mask colour like black , costs a little bit on top. But it looks like this circumvents the problem. But check also for settingb"Standard PCBA" at the assembly setp of the ordering process 
 
 ---
 ---
