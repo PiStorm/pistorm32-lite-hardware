@@ -16,10 +16,7 @@ PiStorm32-lite is compatible with
 
 - Raspberry CM4 (Recommended Version : CM4 Lite, 2GB RAM with WIFI and no eMMC) trough a adapter
   https://github.com/PiStorm/cm4board
-
-And soon there will be a custom made CM4 adapter for PiStorm32-lite.
-The custom made adapter will offer the best cooling in the constrained space available and convenient access to all IOs (HDMI,USB,Ethernet)
-through the A1200 Module Slot near the Joystick/Mouse ports without modifications to the Amiga case.
+The custom made adapter CM4 Adapter will offer the best cooling in the constrained space available.
 
 
 ![image](https://user-images.githubusercontent.com/16537586/209653456-0dadc99d-8447-41e0-b1e9-c29c1a3ce5f9.png)
