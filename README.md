@@ -16,7 +16,8 @@ PiStorm32-lite is compatible with
 
 - Raspberry CM4 (Recommended Version : CM4 Lite, 2GB RAM with WIFI and no eMMC) trough a adapter
   https://github.com/PiStorm/cm4board
-The custom made adapter CM4 Adapter will offer the best cooling in the constrained space available.
+  
+The custom designed CM4 Adapter will offer the best cooling and electrical properties in the constrained space available.
 
 
 ![image](https://user-images.githubusercontent.com/16537586/209653456-0dadc99d-8447-41e0-b1e9-c29c1a3ce5f9.png)
