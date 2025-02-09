@@ -5,32 +5,7 @@ This repository holds all hardware design and fabrication files
 
 
 
-
-
 ---
----
----
----
-
-
-## THERE SEEMS TO BE A QUALITY ISSUE WITH SOLDERING THE GPIO CONNECTOR AT JLCPCB CURRENTLY 
- Please check my [TWITTER](https://twitter.com/Claude1079/status/1612547758920966167?s=20&t=sBTKzZ2F7YMtYThFhheXvA)
- or Discord for further information and progress. 
-
-Currently (14.01.2023) it looks like that PCBs assembeld in the "Economic PCBA" tier are eventually affected.
-When the boards are processed trough the "Standard PCBA" tier the soldering seems to be fine.
-The easiest way to get "Standard PCBA" is to select ENIG finish or/and a custom solder mask colour like black , costs a little bit on top. But it looks like this circumvents the problem.
-But check also for setting "Standard PCBA" at the assembly step of the ordering process 
-
----
----
----
----
-
-
-
-
-
 
 
 PiStorm32-lite is compatible with 
